@@ -4,36 +4,147 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Design</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <!-- <base href="/public"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/animate.css">
+    <link rel="stylesheet" href="./assets/slider.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
-  <body>
-    <section>
-      
-        <div id="list" class="animated fadeInLeft">
-          <h1 class="design-title animated fadeInLeft">Arch</h1>
+  <body id="design-body">
+    <div id="navbar">
+      <a class="nav-link" href="./dev.html">Development</a>
+      <a class="nav-link" href="#">Contact</a>      
+    </div>
+
+      <div class="bs-contain container">
+        <div id="list" class="animated row">
+
+            <div class="list-item animated fadeInUp col-12 col-sm-6 col-md-4 ">
+              <div class="imgs">
+                <a class="design-link" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/d5.jpg?alt=media&token=8d751e8f-b965-40b6-92c5-6ec0faf64cb9">    
+                  <div class="design-thumb" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/d5-thumb.jpg?alt=media&token=9a95b8f1-d84e-47b8-bc94-48d126a75b4c)"></div>
+                </a>
+                <div class="icons"></div>
+              </div>
+              <p class="design-title">Automation</p>
+            </div>
+
+            <div class="list-item animated fadeInUp  col-12 col-sm-6 col-md-4   ">
+                <div class="imgs">
+                  <a class="design-link" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/fcdc.jpg?alt=media&token=fc5a5a34-03b8-4ce4-90ae-abe6be207da3">    
+                    <div class="design-thumb" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/fcdc-thumb.jpg?alt=media&token=df7721a0-db6e-4e29-b746-601570c68ed8)"></div>
+                  </a>
+                  <div class="icons"></div>
+                </div>
+                <p class="design-title">Installation</p>
+              </div>
+
+              <div class="list-item animated fadeInUp  col-12 col-sm-6 col-md-4   ">
+                <div class="imgs">
+                  <a class="design-link" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/cast.jpg?alt=media&token=b48e1462-6177-4695-af0f-d56c673e13ba">    
+                    <div class="design-thumb" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/cast-thumb.jpg?alt=media&token=817d2f07-8740-47bb-ad0d-a2c8fdd88c26)"></div>
+                  </a>
+                  <div class="icons"></div>
+                </div>
+                <p class="design-title">Cast</p>
+              </div>
+
+              <div class="list-item animated fadeInUp  col-12 col-sm-6 col-md-4   ">
+                <div class="imgs">
+                  <a class="design-link" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/enclosure.pdf?alt=media&token=ee3744b3-d6a9-42eb-8aad-3e989c023f8a">    
+                    <div class="design-thumb" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/enclosure-thumb.jpg?alt=media&token=78054656-fc6a-4062-8bae-e8533fbbbc6a)"></div>
+                  </a>
+                  <div class="icons"></div>
+                </div>
+                <p class="design-title">Enclosure</p>
+              </div>
+
+              <div class="list-item animated fadeInUp  col-12 col-sm-6 col-md-4   ">
+                  <div class="imgs">
+                    <a onclick="lightbox(0)" class="design-link" href="#">    
+                      <div class="design-thumb" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/maps-thumb.png?alt=media&token=9c586b98-5592-4dcc-8e81-313277e880c2)"></div>
+                    </a>
+                    <div class="icons"></div>
+                  </div>
+                  <p class="design-title">Maps</p>
+                </div>
+
+                <div class="list-item animated fadeInUp  col-12 col-sm-6 col-md-4   ">
+                    <div class="imgs">
+                      <a class="design-link" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/usermap.jpg?alt=media&token=98f76602-716d-485a-8334-dbcbccf87bf6">    
+                        <div class="design-thumb" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/usermap-thumb.jpg?alt=media&token=924addb0-f97c-4e7d-bdef-ff4292c3f438)"></div>
+                      </a>
+                      <div class="icons"></div>
+                    </div>
+                    <p class="design-title">Wireframe</p>
+                  </div>
+
+
+
+
+
         </div>
-        <!-- <hr> -->
-        <div id="list" class="animated fadeInLeft">
-            <h1 class="animated fadeInLeft">Graphic</h1>
+      </div>
+       <!--start MAPS GALLERY-->
+    <div style="display:none;">
+        <div id="ninja-slider">
+            <div class="slider-inner">
+                <ul>
+                    <li>
+                        <a class="ns-img" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/lamar.png?alt=media&token=70e598bd-b798-4b47-aaf2-d30ef2f771a1"></a>
+                        <div class="caption">
+                            <h6>North Lamar Commercial Visibility</h6>
+                            <p>retail entrance visibility thresholds</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/busmap.png?alt=media&token=f778cd23-dac6-409c-b63b-35306b6ad995"></a>
+                        <div class="caption">
+                            <h6>North Lamar Public Transit Infrastructure</h6>
+                            <p>pedestrian paths</p> 
+                        </div>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="https://firebasestorage.googleapis.com/v0/b/cruz-portfolio.appspot.com/o/trafficmap.png?alt=media&token=ccfce98e-5550-40c0-8c2d-b60e593062c7"></a>
+                        <div class="caption">
+                            <h6>Downtown Austin Traffic Flow</h6>
+                            <p>preliminary parking logistics study</p> 
+                        </div>
+                    </li>
+
+                </ul>
+                <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+            </div>
         </div>
-        <!-- <hr> -->
-        <div id="list" class="animated fadeInLeft">
-            <h1 class="animated fadeInLeft">Web</h1>
-        </div>
-        <!-- <hr> -->
-        <div id="list" class="animated fadeInLeft">
-          <h1 class="animated fadeInLeft">Resume</h1>
-        </div>
+    </div>
+<!--	END OF maps GALLERY-->
+
       
    
-    </section>
+    
         <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/slider.js" type="text/javascript"></script>
+    <script>
+        function lightbox(idx) {
+            //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+            var ninjaSldr = document.getElementById("ninja-slider");
+            ninjaSldr.parentNode.style.display = "block";
+
+            nslider.init(idx);
+
+            var fsBtn = document.getElementById("fsBtn");
+            fsBtn.click();
+        }
+
+        function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+            if (isFullscreen) {
+                ninjaSldr.parentNode.style.display = "none";
+            }
+        }
+    </script>
   </body>
 </html>

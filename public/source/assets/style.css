@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400');
 
-body
+body, row
 {
     font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    margin: 0;
+}
+
+.bs-contain
+{
+    margin: 0;
+    padding: 0;
+    /* width: 95vw; */
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
 }
 
 #name
@@ -124,17 +141,75 @@ body
 
 
 /* DESIGN HTML PAGE------------------------------ */
+
+#navbar
+{
+    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.nav-link
+{
+    margin-right: 20px;
+    font-size: 20px;
+    color: gray;
+} 
+
+#design-body
+{
+    /* background-color: rgba(245, 245, 245, 0.959); */
+}
+
 .design-title
 {
     text-align: center;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 #list 
 {
-    width: 85%;
-    height: 10vh;
-    padding: 15px;
-    border-bottom: 1px solid rgb(168, 168, 168);
+    padding:0;
+    margin: 0;
+}
+
+.list-item
+{
+    margin-top: 45px;
+}
+
+.imgs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-link
+{
+    width: 100%;
+    height: 100%;
+}
+
+.design-thumb
+{
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 6px 6px 18px gray;
+}
+
+.icons
+{
+    margin: 5px 0;
 }
 
 #list h1
@@ -143,4 +218,28 @@ body
     font-weight: 100;
 
 }
+
+/* DEV HTML PAGE---------------------------- */
+
+#dev-body
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dev-link
+{
+    text-align: center;
+}
+
+.dev-title, .dev-link:hover
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+}
+
 

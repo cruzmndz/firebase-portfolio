@@ -130,7 +130,12 @@ a
     display: inline-block;
 }
 
-
+.nav-indicate
+{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
 
 /* DESIGN HTML PAGE------------------------------ */
 
@@ -148,7 +153,6 @@ a
 
 .nav-link
 {
-    margin-right: 20px;
     font-size: 20px;
     color: gray;
 } 
@@ -283,4 +287,14 @@ a
     font-weight: 100;
 }
 
+.nav-indicate
+{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
 
+.contact
+{
+    margin-right: 30px;
+}

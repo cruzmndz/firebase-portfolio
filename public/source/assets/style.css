@@ -313,6 +313,11 @@ a
     /* padding-left: 20px; */
 }
 
+.space
+{
+    width: 10px;
+}
+
 .nav-indicate
 {
     color: white;
